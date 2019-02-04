@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Nanodegree Full Stack - Project 2</title>
+    </head>
+	<body>
+		<div class="container">
+			<header class="row">
+				<div class="col-md-6">
+					<img class="img-responsive title-logo" src="./img/udacity.gif" alt="logo udacity">
+				</div>
+				<div class="col-md-6 text-right text-right text-uppercase">
+					<h1 class="text-thin title-super">Jane Doette</h1>
+					<h4>Front-End Ninja</h4>
+				</div>
+			</header>
+			<div class="hr-border"></div>
+			<nav class="row">
+				<div class="col-md-12 mg-bottom">
+					<div class="topnav" id="myTopnav">
+						<a href="#home">Home</a>
+						<a href="#news">News</a>
+						<a href="#contact">Contact</a>
+						<a href="#about">About</a>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
+			<section class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="http://placekitten.com/1140/350" alt="quatro gatinhos lindos">
+				</div>
+			</section>
+			<section class="row">
+				<div class="col-md-12 text-muted">
+					<h2>Featured Work</h2>
+				</div>
+			</section>
+			<section class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive img-media" src="./img/work-appify.jpeg" alt="applicativos tela do celular">
+					<h2>Appify</h2>
+					<p><a href="https://github.com/udacity/appify/">https://github.com/udacity/appify/</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive img-media" src="./img/work-sunflower.jpg" alt="girassol">
+					<h2>Appify</h2>
+					<p><a href="https://github.com/udacity/appify/">https://github.com/udacity/sunflower/</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive img-media" src="./img/work-bokeh.jpeg" alt="fogos de artificio">
+					<h2>Appify</h2>
+					<p><a href="https://github.com/udacity/appify/">https://github.com/udacity/bokeh/</a></p>
+				</div>
+			</section>
+		</div>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+</html>
